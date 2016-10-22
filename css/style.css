@@ -1,0 +1,307 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+.center-content {
+    text-align: center;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: none;
+    font-size: 13px;
+    opacity: 0.95;
+}
+
+.navbar-brand {
+    padding-top: 0;
+}
+
+.nav > li > a,
+.navbar-default .navbar-nav > li > a {
+    padding: 19px;
+    color: #989696;
+}
+
+#home,
+#team {
+    background-image: url("../img/header-background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 945px;
+}
+
+#home-header {
+    margin-top: 320px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+#home-header h1 {
+    font-size: 44px;
+}
+
+#home-header h3 {
+    font-family: Merriweather;
+    font-style: italic;
+    font-size: 16px;
+    color: #898888;
+}
+
+#home-btn-container > button,
+#service-btn-container > button {
+    border-radius: 0;
+    border: 1px solid #000000;
+    font-family: Montserrat;
+    font-size: 13px;
+    padding: 20px 50px;
+}
+
+
+#about {
+    background-image: url("../img/about-us-background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1330px;
+    position: relative;
+}
+
+#center-line {
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+}
+
+.items-container .about-item:first-child {
+    margin-top: 150px;
+}
+
+.about-item p {
+    color: #b7b7b7;
+    font-size: 15px;
+    font-family: Montserrat;
+    line-height: 22px;
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.about-item img {
+    position: absolute;
+    left: 50%;
+    margin-left: -13px;
+}
+
+#round-large {
+    margin-left: -24px;
+}
+
+.about-item-left p {
+    padding-right: 0;
+}
+
+.about-item-right p {
+    padding-left: 0;
+}
+
+.about-item h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: Helvetica;
+    padding-left: 0;
+    line-height: 26px;
+}
+
+#about-bottom-img {
+    position: absolute;
+    bottom: -3px;
+}
+
+@media (max-width: 768px) {
+    .about-item p {
+        padding-right: 15px;
+        padding-left: 30px;
+    }
+}
+
+#team {
+    min-height: 750px;
+}
+
+#team-header {
+    margin-top: 85px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+#team-header h1 {
+    font-size: 34px;
+}
+
+#team-header h3 {
+    font-family: Merriweather;
+    font-style: italic;
+    font-size: 16px;
+    color: #898888;
+    margin-top: 5px;
+}
+
+.team-member {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 26px;
+}
+
+.team-member h3 {
+    font-size: 24px;
+}
+
+.team-member p {
+    font-size: 13px;
+    color: #b3b3b3;
+}
+
+.smm-btn-group {
+    color: #e4e4e4;
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+#services {
+    background-image: url("../img/services-background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1650px;
+}
+
+#services-header {
+    margin-top: 275px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+#services-header h1 {
+    font-size: 34px;
+    color: #ffffff;
+}
+
+#services-header h3 {
+    font-family: Merriweather;
+    font-style: italic;
+    font-size: 16px;
+    color: #898888;
+    margin-top: 5px;
+}
+
+.service-icon {
+    background-image: url("../img/ellipse-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    font-size: 54px;
+    color: #ffffff;
+    min-height: 170px;
+    min-width: 170px;
+}
+
+.service-description {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 26px;
+}
+
+.service-description h3 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.service-description p {
+    font-size: 18px;
+    color: #383838;
+    margin-top: 20px;
+}
+
+#service-btn-container {
+    margin-top: 470px;
+}
+
+#contact {
+    min-height: 1330px;
+}
+
+#contact-header {
+    margin-top: 100px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+#contact-header h1 {
+    font-size: 34px;
+}
+
+#contact-header h3 {
+    font-family: Merriweather;
+    font-style: italic;
+    font-size: 16px;
+    color: #898888;
+    margin-top: 5px;
+}
