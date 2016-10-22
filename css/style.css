@@ -283,7 +283,11 @@ table {
 }
 
 #contact {
-    min-height: 1330px;
+    min-height: 1130px;
+}
+
+#contact .items-container {
+    margin-top: 60px;
 }
 
 #contact-header {
@@ -304,4 +308,42 @@ table {
     font-size: 16px;
     color: #898888;
     margin-top: 5px;
+}
+
+.contact-item i {
+    font-size: 24px;
+}
+
+.contact-item p {
+    font-size: 13px;
+    color: #898888;
+    margin-top: 15px;
+}
+
+#user-form {
+    margin-top: 150px;
+}
+
+#user-form input,
+#user-form textarea {
+    border-radius: 0;
+    font-size: 15px;
+    border: 1px solid #999999;
+    padding: 25px;
+    color: #898888;
+    resize: vertical;
+}
+
+#user-form button {
+    border-radius: 0;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 150px;
+    text-align: center;
 }
