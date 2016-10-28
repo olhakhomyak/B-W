@@ -48,15 +48,20 @@ table {
 }
 
 
+/*********
+GENERAL
+*********/
+.center-content {  text-align: center;  }
 
-.center-content {
-    text-align: center;
-}
+.no-margin-top {  margin-top: 0;  }
+.add-margin-top-lg {  margin-top: 170px;  }
+.add-margin-top-md {  margin-top: 75px;  }
 
-.no-margin-top {
-    margin-top: 0;
-}
 
+
+/****************
+PAGE NAVIGATION
+*****************/
 .navbar {
     background-color: #ffffff;
     border-bottom: none;
@@ -64,9 +69,7 @@ table {
     opacity: 0.95;
 }
 
-.navbar-brand {
-    padding-top: 0;
-}
+.navbar-brand {  padding-top: 0;  }
 
 .nav > li > a,
 .navbar-default .navbar-nav > li > a {
@@ -74,6 +77,13 @@ table {
     color: #989696;
 }
 
+.nav-item {  padding: 5px;  }
+
+
+
+/**************
+HOME SECTION
+**************/
 #home,
 #team {
     background-image: url("../img/header-background.png");
@@ -84,15 +94,13 @@ table {
 }
 
 #home-header {
-    margin-top: 320px;
+    margin-top: 345px;
     font-family: Helvetica;
     font-weight: lighter;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
-#home-header h1 {
-    font-size: 44px;
-}
+#home-header h1 {  font-size: 44px;  }
 
 #home-header h3 {
     font-family: Merriweather;
@@ -111,6 +119,10 @@ table {
 }
 
 
+
+/***************
+ABOUT SECTION
+**************/
 #about {
     background-image: url("../img/about-us-background.png");
     background-position: center;
@@ -126,9 +138,7 @@ table {
     margin-left: -4px;
 }
 
-.items-container .about-item:first-child {
-    margin-top: 150px;
-}
+.items-container .about-item:first-child {  margin-top: 150px;  }
 
 .about-item p {
     color: #b7b7b7;
@@ -170,28 +180,22 @@ table {
     bottom: -3px;
 }
 
-@media (max-width: 768px) {
-    .about-item p {
-        padding-right: 15px;
-        padding-left: 30px;
-    }
-}
 
-#team {
-    min-height: 750px;
-}
+
+/***************
+TEAM SECTION
+**************/
+#team {  min-height: 750px;  }
 
 #team-header {
-    margin-top: 85px;
+    margin-top: 90px;
     font-family: Helvetica;
     font-weight: lighter;
     line-height: 26px;
     margin-bottom: 40px;
 }
 
-#team-header h1 {
-    font-size: 34px;
-}
+#team-header h1 {  font-size: 34px;  }
 
 #team-header h3 {
     font-family: Merriweather;
@@ -207,6 +211,7 @@ table {
 }
 
 .team-member h3 {
+    margin-top: 20px;
     font-size: 24px;
 }
 
@@ -221,6 +226,11 @@ table {
     font-size: 24px;
 }
 
+
+
+/****************
+SERVICES SECTION
+****************/
 #services {
     background-image: url("../img/services-background.png");
     background-position: center;
@@ -230,7 +240,7 @@ table {
 }
 
 #services-header {
-    margin-top: 275px;
+    margin-top: 230px;
     font-family: Helvetica;
     font-weight: lighter;
     line-height: 26px;
@@ -278,29 +288,26 @@ table {
     margin-top: 20px;
 }
 
-#service-btn-container {
-    margin-top: 470px;
-}
+#service-btn-container {  margin-top: 470px;  }
 
-#contact {
-    min-height: 1130px;
-}
 
-#contact .items-container {
-    margin-top: 60px;
-}
+
+
+/****************
+CONTACT SECTION
+****************/
+#contact {  min-height: 1130px;  }
+
+#contact .items-container {  margin-top: 60px;  }
 
 #contact-header {
-    margin-top: 100px;
+    margin-top: 90px;
     font-family: Helvetica;
     font-weight: lighter;
     line-height: 26px;
-    margin-bottom: 40px;
 }
 
-#contact-header h1 {
-    font-size: 34px;
-}
+#contact-header h1 {  font-size: 34px;  }
 
 #contact-header h3 {
     font-family: Merriweather;
@@ -310,9 +317,7 @@ table {
     margin-top: 5px;
 }
 
-.contact-item i {
-    font-size: 24px;
-}
+.contact-item i {  font-size: 24px;  }
 
 .contact-item p {
     font-size: 13px;
@@ -320,9 +325,7 @@ table {
     margin-top: 15px;
 }
 
-#user-form {
-    margin-top: 150px;
-}
+#user-form {  margin-top: 150px;  }
 
 #user-form input,
 #user-form textarea {
@@ -346,4 +349,59 @@ table {
 footer {
     margin-top: 150px;
     text-align: center;
+}
+
+
+
+
+/*************
+MEDIA
+**************/
+@media (min-width: 768px) {
+    #bs-example-navbar-collapse-1 {
+        position: relative;
+        overflow:hidden;
+    }
+    #bs-example-navbar-collapse-1 ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+        position: relative;
+        left:47%;
+        float:left;
+    }
+    #bs-example-navbar-collapse-1 ul li {
+        position:relative;
+        left:-50%;
+        float:left;
+        margin:0 10px;
+        height:40px
+    }
+    #bs-example-navbar-collapse-1 ul li a {
+        display:block;
+        text-decoration:none;
+        padding:0 15px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-fixed-top {  background-color: #0f0f0f;  }
+    .navbar-header > button {  background-color: #ffffff;  }
+    .service-description > div:not(:first-child) {  margin-top: 60px;  }
+    .about-item {  padding: 20px;  }
+    .add-margin-top-lg,
+    .add-margin-top-md {  margin-top: 30px;  }
+    .about-item p {
+        padding-right: 15px;
+        padding-left: 30px;
+    }
+    footer,
+    #user-form,
+    #service-btn-container {  margin-top: 100px;  }
+    #contact {  min-height: 1000px;  }
+    #home {  min-height: 550px;  }
+    #home-header {  margin-top: 120px;  }
+    #home-header h1 {  margin-bottom: 10px;  }
+
 }

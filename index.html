@@ -14,15 +14,14 @@
 
 <!--PAGE NAVIGATION-->
 <div id="navbar" class="row">
-    <nav class="navbar navbar-default navbar-fixed-top"
-         style="padding-left: 35px">
-        <div class="col-lg-6 col-lg-offset-3 col-md-offset-2 col-md-8 col-sm-12">
-        <!--<div class="container-fluid">-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2
+                    col-sm-12 col-xs-12">
             <!--brand and toggle for small devices-->
             <div class="navbar-header">
                 <!--toggle-->
                 <button type="button"
-                        class="navbar-toggle collapsed"
+                        class="navbar-toggle collapsed pull-left"
                         data-toggle="collapse"
                         data-target="#bs-example-navbar-collapse-1"
                         aria-expanded="false">
@@ -32,8 +31,11 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!--brand-->
-                <a class="navbar-brand pull-left visible-xs" href="#">
-                    <img src="img/logo.png" alt="logo">
+                <a class="navbar-brand pull-right" href="#">
+                    <img src="img/logo.png"
+                         alt="logo"
+                         class="hidden-lg hidden-md hidden-sm visible-xs"
+                         style="max-height: 50px">
                 </a>
             </div><!--end of brand and toggle-->
             <!--navigation links-->
@@ -57,7 +59,7 @@
                     </li>
 
                     <!--brand-->
-                    <li class="navbar-brand hidden-xs hidden-sm" href="#">
+                    <li class="nav-item hidden-xs" href="#">
                         <img src="img/logo.png" alt="logo">
                     </li>
 
@@ -78,20 +80,21 @@
                     </li>
                 </ul>
             </div><!--end of the navigation links-->
-        <!--</div>&lt;!&ndash;container-fluid &ndash;&gt;-->
-        </div> <!--</div>-->
+        </div>
     </nav>
-</div><!--end of the  page navigation-->
+</div><!--//page navigation-->
 
-
+<!--'HOME' SECTION-->
 <section id="home"
          class="row">
+    <!--header-->
     <div id="home-header"
          class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2
                 col-sm-10 col-sm-offset-1 col-xs-12 center-content">
         <h1>We build it with passion</h1>
         <h3>Just to be clear, we do this for fun not for you, just kidding.</h3>
-    </div>
+    </div><!--// header-->
+    <!--button-->
     <div id="home-btn-container"
          class="col-lg-2 col-lg-offset-5 col-md-2 col-md-offset-5
                 col-sm-4 col-sm-offset-4 col-xs-12 center-content">
@@ -99,17 +102,18 @@
                 class="btn btn-default btn-lg">
             READ MORE
         </button>
-    </div>
-</section>
+    </div><!--//button-->
+</section><!--//'home' section-->
 
-
+<!--'ABOUT' SECTION-->
 <section id="about"
          class="row">
+    <!--center line-->
     <div id="center-line"
          class="hidden-xs hidden-sm">
         <img src="img/main-line.png"
              alt="vertical line">
-    </div><!--center line-->
+    </div><!--//center line-->
 
     <div class="items-container">
         <!--item-->
@@ -123,16 +127,16 @@
                     <img src="img/2011.png"
                          alt="round sign"
                          class="hidden-sm hidden-xs">
-                </div><!--row-->
+                </div><!--//row-->
                 <div class="row">
                     <p class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1
                               col-sm-10 col-sm-offset-1 col-xs-12">
                         Lorem ipsum dolor sit amet, consectetur adipiselit.
                         Vivamus varius nec diam vitae hendrerit bigus mit.
                     </p>
-                </div><!--row-->
-            </div><!--container-fluid-->
-        </div><!--item-->
+                </div><!--//row-->
+            </div><!--//container-fluid-->
+        </div><!--//item-->
 
         <!--item-->
         <div class="about-item about-item-right"
@@ -146,7 +150,7 @@
                     <img src="img/2011.png"
                          alt="round sign"
                          class="hidden-sm hidden-xs">
-                </div><!--row-->
+                </div><!--//row-->
                 <div class="row">
                     <p class="col-lg-4 col-lg-offset-7 col-md-4 col-md-offset-7
                               col-sm-10 col-sm-offset-1 col-xs-12">
@@ -154,9 +158,9 @@
                         Vivamus varius nec diam vitae hendrerit bigus mit.
                         Begitus vit urna nulla.
                     </p>
-                </div><!--row-->
-            </div><!--container-fluid-->
-        </div><!--item-->
+                </div><!--//row-->
+            </div><!--//container-fluid-->
+        </div><!--//item-->
 
         <!--item-->
         <div class="about-item about-item-left"
@@ -171,7 +175,7 @@
                          alt="round sign"
                          id="round-large"
                          class="hidden-sm hidden-xs">
-                </div><!--row-->
+                </div><!--//row-->
                 <div class="row">
                     <p class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1
                               col-sm-10 col-sm-offset-1 col-xs-12">
@@ -179,9 +183,9 @@
                         porttitor ac orci in, ultrices efficitur nisl. Ut odio libero,
                         sodales a tellus eleifend, suscipit dapibus mi.
                     </p>
-                </div><!--row-->
-            </div><!--container-fluid-->
-        </div><!--item-->
+                </div><!--//row-->
+            </div><!--//container-fluid-->
+        </div><!--//item-->
 
         <!--item-->
         <div class="about-item about-item-right"
@@ -195,7 +199,7 @@
                     <img src="img/2011.png"
                          alt="round sign"
                          class="hidden-sm hidden-xs">
-                </div><!--row-->
+                </div><!--//row-->
                 <div class="row">
                     <p class="col-lg-4 col-lg-offset-7 col-md-4 col-md-offset-7
                               col-sm-10 col-sm-offset-1 col-xs-12">
@@ -203,22 +207,23 @@
                         Vivamus varius nec diam vitae hendrerit bigus mit.
                         Begitus vit urna nulla.
                     </p>
-                </div><!--row-->
-            </div><!--container-fluid-->
-        </div><!--item-->
+                </div><!--//row-->
+            </div><!--//container-fluid-->
+        </div><!--//item-->
 
-    </div><!--items-container-->
+    </div><!--//items-container-->
 
     <div id="about-bottom-img">
         <img src="img/buildings--black.png"
              alt="buildings"
              class="img-responsive"
              style="min-height: 236px">
-    </div><!--bottom-img-->
-</section>
+    </div><!--//bottom-img-->
+</section><!--//'about' section-->
 
-
+<!--'TEAM' SECTION-->
 <section id="team" class="row">
+    <!--header-->
     <div class="container-fluid">
         <div class="row">
             <div id="team-header"
@@ -226,15 +231,16 @@
                         col-sm-10 col-sm-offset-1 col-xs-12 center-content">
                 <h1>This is our team</h1>
                 <h3>We are small but effective and ...</h3>
-            </div>
-        </div>
-    </div>
+            </div><!--//header-->
+        </div><!--//row-->
+    </div><!--//container-fluid-->
+
     <div class="items-container">
-        <!--item-->
         <div class="container-fluid">
             <div class="row team-member">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 center-content"
-                     style="margin-top: 175px">
+                <!--item-->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12
+                            center-content add-margin-top-lg">
                     <img src="img/layer-3.png"
                          alt="photo of team member"
                          class="img-responsive"
@@ -245,13 +251,14 @@
                         <i class="fa fa-twitter-square" aria-hidden="true"></i>
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                     </div>
-                </div>
+                </div><!--//item-->
 
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 center-content"
-                     style="margin-top: 75px">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12
+                            center-content add-margin-top-md"
+                     style="margin-bottom: 30px">
                     <img src="img/layer-3.png" alt="photo of team member"
                          class="img-responsive" style="display: inline-block">
-                    <h3>Mark Once</h3>
+                    <h3>Mark Once2</h3>
                     <p>Designer & Front-End Developer</p>
                     <div class="smm-btn-group">
                         <i class="fa fa-twitter-square" aria-hidden="true"></i>
@@ -259,23 +266,23 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-6 col-col-xs-12 center-content"
-                     style="margin-top: 175px">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-col-xs-12
+                            center-content add-margin-top-lg">
                     <img src="img/layer-3.png" alt="photo of team member"
                          class="img-responsive" style="display: inline-block">
-                    <h3>Mark Once</h3>
+                    <h3>Mark Once3</h3>
                     <p>Designer & Front-End Developer</p>
                     <div class="smm-btn-group">
                         <i class="fa fa-twitter-square" aria-hidden="true"></i>
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                     </div>
                 </div>
-            </div><!--item-->
-        </div>
-    </div>
-</section>
+            </div><!--//row-->
+        </div><!--//container-fluid-->
+    </div><!--//items container-->
+</section><!--//'team' section-->
 
-
+<!--'SERVICES' SECTION-->
 <section id="services" class="row">
     <div class="container-fluid">
         <div class="row">
@@ -284,12 +291,10 @@
                         col-sm-10 col-sm-offset-1 col-xs-12 center-content">
                 <h1>We provide you everything</h1>
                 <h3>Maybe not everything, but we provide you some stuff.</h3>
-            </div>
-        </div>
-    </div>
-    <div class="items-container"
-         style="margin-top: 175px">
-        <!--item-->
+            </div><!--//services-header-->
+        </div><!--//row-->
+    </div><!--//container-fluid-->
+    <div class="items-container add-margin-top-lg">
         <div class="container-fluid">
             <div class="row service-description">
                 <!--item-->
@@ -300,7 +305,7 @@
                     <p>Aenean nisi lectus, convallis non lorem sit amet,
                         rhoncus malesuada justo
                     </p>
-                </div><!--item-->
+                </div><!--//item-->
                 <!--item-->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 center-content">
                     <i class="fa fa-heart service-icon"
@@ -309,7 +314,7 @@
                     <p>Aenean nisi lectus, convallis non lorem sit amet,
                         rhoncus malesuada justo
                     </p>
-                </div><!--item-->
+                </div><!--//item-->
                 <!--item-->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 center-content">
                     <i class="fa fa-cloud-upload service-icon"
@@ -318,10 +323,10 @@
                     <p>Aenean nisi lectus, convallis non lorem sit amet,
                         rhoncus malesuada justo
                     </p>
-                </div><!--item-->
-            </div>
-        </div>
-    </div>
+                </div><!--//item-->
+            </div><!--//row-->
+        </div><!--//container-fluid-->
+    </div><!--//items container-->
     <div id="service-btn-container"
          class="col-lg-2 col-lg-offset-5 col-md-2 col-md-offset-5
                 col-sm-4 col-sm-offset-4 col-xs-12 center-content">
@@ -329,9 +334,10 @@
                 class="btn btn-default btn-lg">
             VISIT OUR BLOG
         </button>
-    </div>
-</section>
+    </div><!--//btn-container-->
+</section><!--//'services' section-->
 
+<!--'CONTACT' SECTION-->
 <section id="contact" class="row">
     <div class="container-fluid">
         <div class="row">
@@ -340,9 +346,9 @@
                         col-sm-10 col-sm-offset-1 col-xs-12 center-content">
                 <h1>Contac Us</h1>
                 <h3>We know what we need to do</h3>
-            </div>
-        </div>
-    </div>
+            </div><!--//contact-header-->
+        </div><!--//row-->
+    </div><!--container-fluid-->
     <div class="items-container">
         <div class="container-fluid">
             <div class="row">
@@ -353,7 +359,7 @@
                     <i class="fa fa-line-chart"
                        aria-hidden="true"></i>
                     <p>555-222-333</p>
-                </div><!--item-->
+                </div><!--//item-->
 
                 <!--item-->
                 <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4
@@ -361,7 +367,7 @@
                     <i class="fa fa-map-marker"
                        aria-hidden="true"></i>
                     <p>Here is some address</p>
-                </div><!--item-->
+                </div><!--//item-->
 
                 <!--item-->
                 <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4
@@ -369,11 +375,11 @@
                     <i class="fa fa-envelope"
                        aria-hidden="true"></i>
                     <p>somemail@hotmail.com</p>
-                </div><!--item-->
+                </div><!--//item-->
 
-            </div><!--row-->
-        </div><!--container-fluid-->
-    </div><!--items-container-->
+            </div><!--//row-->
+        </div><!--//container-fluid-->
+    </div><!--//items-container-->
 
     <div class="container-fluid">
         <div class="row">
@@ -384,24 +390,23 @@
                                class="form-control center-content"
                                id="user-name"
                                placeholder="Full Name">
-                    </div>
+                    </div><!--//input 'user name'-->
                     <div class="form-group">
                         <input type="email"
                                class="form-control center-content"
                                id="user-email"
                                placeholder="Email">
-                    </div>
+                    </div><!--//input 'email'-->
                     <div class="form-group">
-                        <input type="number"
+                        <input type="text"
                                class="form-control center-content"
                                id="user-phone"
                                placeholder="Number">
-                    </div>
+                    </div><!--//input 'phone number'-->
                     <textarea name="user-message"
                               id="user-message"
                               rows="10"
-                              class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Write your Message here...
-                    </textarea>
+                              class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Write your Message here...</textarea><!--//input 'message'-->
                     <button type="button"
                             id="send-email-btn"
                             value="Submit"
@@ -409,16 +414,18 @@
                         Submit
                     </button>
                 </form>
-            </div><!--end of contact form-->
-        </div>
-    </div>
+            </div><!--//contact form-->
+        </div><!--//row-->
+    </div><!--//container-fluid-->
 
-    <footer class="row">
+    <footer>
         <p>Copyright © Kenan Hamidic. All rights reserved.</p>
     </footer>
-</section>
+</section><!--//'contact' section-->
 
 </div>
+
+<script src="js/main.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
